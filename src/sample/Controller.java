@@ -58,11 +58,14 @@ public class Controller {
 
         public void setFont(ActionEvent actionEvent) {
             MenuItem mi = (MenuItem) actionEvent.getSource();
+
             String n = mi.getText();
+
             switch (n){
+                case "verdana":
+                    break;
                 case "comic sans":
                     break;
-                case
 
             }
         }
