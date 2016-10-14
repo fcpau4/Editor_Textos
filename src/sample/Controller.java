@@ -22,9 +22,9 @@ public class Controller {
 
         public Menu fontMenu;
 
-        public MenuItem arial;
-        public MenuItem comicSans;
-        public MenuItem verdana;
+        public MenuItem nimbusSansL;
+        public MenuItem bitstreamCharter;
+        public MenuItem freeMono;
 
         public Menu tamanyMenu;
         public MenuItem deu;
@@ -59,13 +59,24 @@ public class Controller {
         public void setFont(ActionEvent actionEvent) {
             MenuItem mi = (MenuItem) actionEvent.getSource();
 
-            String n = mi.getText();
 
-            switch (n){
-                case "verdana":
+
+            String font = mi.getText();
+
+
+            switch (font){
+
+                case "Nimbus Sans L":
+                    editorText.setFont(Font.font(font));
                     break;
-                case "comic sans":
+                case "Bitstream Charter":
+                    editorText.setFont(Font.font(font));
                     break;
+                case "FreeMono":
+                    editorText.setFont(Font.font(font));
+                    break;
+
+
 
             }
         }

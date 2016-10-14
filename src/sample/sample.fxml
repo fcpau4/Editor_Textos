@@ -27,9 +27,9 @@
             <items>
                   <Menu fx:id="fontMenu" mnemonicParsing="false" text="Font">
                     <items>
-                      <MenuItem fx:id="arial" mnemonicParsing="false" onAction="#setFont" text="Arial" />
-                        <MenuItem fx:id="comicSans" mnemonicParsing="false" text="Comic Sans" />
-                        <MenuItem fx:id="verdana" mnemonicParsing="false" text="Verdana" />
+                      <MenuItem fx:id="nimbusSansL" mnemonicParsing="false" onAction="#setFont" text="Nimbus Sans L" />
+                        <MenuItem fx:id="bitstreamCharter" mnemonicParsing="false" text="Bitstream Charter" />
+                        <MenuItem fx:id="freeMono" mnemonicParsing="false" text="FreeMono" />
                     </items>
                   </Menu>
                   <Menu fx:id="tamanyMenu" mnemonicParsing="false" text="Tamany">
