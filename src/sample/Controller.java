@@ -143,7 +143,6 @@ public class Controller {
        openDialog od = new openDialog();
 
        if(obrirItem == actionEvent.getSource()){
-
            editorText.setText(od.openFile(stage));
 
        }else if(guardarItem == actionEvent.getSource()){

@@ -5,8 +5,8 @@ import java.io.*;
 
 public class openDialog {
 
-    void saveFile(Stage stage, String content){
-        try {
+    void saveFile(Stage stage, String content) {
+
             FileChooser fileChooser = new FileChooser();
             fileChooser.setTitle("Guarda l'arxiu");
             fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("TXT Files", "*txt"));
@@ -15,9 +15,6 @@ public class openDialog {
                 readFile(newFile);
                 writeFile(newFile, content);
             }
-        }catch(Exception e){
-            System.out.println("Error: " + e.getMessage());
-        }
     }
 
     String openFile(Stage stage) {
